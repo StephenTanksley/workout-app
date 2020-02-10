@@ -1,0 +1,36 @@
+{
+  "name": "workout-app",
+  "version": "1.0.0",
+  "description": "A personal workout app using the P90X personal fitness system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenTanksley/workout-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenTanksley/workout-app/issues"
+  },
+  "homepage": "https://github.com/StephenTanksley/workout-app#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.9",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.1",
+    "sqlite3": "^4.1.1"
+  }
+}

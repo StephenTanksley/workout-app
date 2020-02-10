@@ -1,0 +1,21 @@
+Building a server from scratch.
+
+1) Create a new repo in Github with README.
+
+2) Clone down the repo and set up remote branch.
+
+3) Initialize package.json file. 
+    
+    ```npm init -y```
+
+4) Install dependencies. 
+
+    ```npm i knex sqlite3 express cors helmet cross-env dotenv knex-cleaner pg jsonwebtoken jest supertest```
+
+5) Initialize knex.
+
+    ```npx knex init```
+
+6) Configure knexfile for databases. Create databases for testing, development, and production.
+
+7) 
