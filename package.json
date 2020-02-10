@@ -4,14 +4,16 @@
   "description": "A personal workout app using the P90X personal fitness system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env DB_ENV=test jest --watchAll --verbose --coverage --runInBand",
+    "server": "cross-env DB_ENV=dev nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StephenTanksley/workout-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stephen Tanksley",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StephenTanksley/workout-app/issues"

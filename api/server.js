@@ -5,7 +5,7 @@ const cors = require('cors');
 const logger = require('../data/middleware/logger');
 
 const authRouter = require('../data/routes/auth/authRouter');
-const userRouter = require('../data/routes/users');
+const usersRouter = require('../data/routes/users');
 
 const server = express();
 server.use(helmet());
