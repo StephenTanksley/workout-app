@@ -65,6 +65,25 @@ exports.seed = async (knex) => {
         exercise_description: "Side lunge, rest elbow on knee. Pull weight from floor to waist. Repeat on other side.",
         alternate_description: "If using bands: Stagger feet on band with wide-leg stance and pull front handle in same motion as above."
       },
-
+      {
+        id: 11,
+        workout_id: 1,
+        exercise_name: "Dive-Bomber Push-Up",
+        exercise_description: "Move from a Downward Dog position (with wide hands and feet) to an Upward Dog position (this exercise simulates going back and forth underneath a fence). To modify, do NOT go back underneath the fence. Just return to Downward Dog position and go under fence forward."
+      },
+      {
+        id: 12,
+        workout_id: 1,
+        exercise_name: "Back Fly",
+        exercise_description: "Seated at the edge of chair, lower rib cage onto upper thigh, reaching behind heels. Keep wrists inward, dlobows out, and pull weight up towards ceiling. Pinch the shoulder blades together at top of movement.",
+        alternate_description: "If using bands: Shorten band by twisting in small loop. While seated, straddle band at center with both feet. Raise handles in a crisscross motion to perform same movement as above."
+      },
+      {
+        id: 13,
+        workout_id: 2,
+        exercise_name: "Alternating Shoulder Press",
+        exercise_description: "Seated at the edge of chair, lower rib cage onto upper thigh, reaching behind heels. Keep wrists inward, dlobows out, and pull weight up towards ceiling. Pinch the shoulder blades together at top of movement.",
+        alternate_description: "If using bands: Shorten band by twisting in small loop. While seated, straddle band at center with both feet. Raise handles in a crisscross motion to perform same movement as above."
+      },
     ])
 };
