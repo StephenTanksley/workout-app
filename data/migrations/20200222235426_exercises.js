@@ -7,8 +7,10 @@ exports.up = async function(knex) {
             .inTable('workouts')
             .onUpdate('CASCADE')
             .onDelete('CASCADE')
+        table.string('exercise_name').notNullable()
         table.string('exercise_description')
             .notNullable()
+        table.string('alternate_description')
     })
 };
 
