@@ -40,3 +40,12 @@ const remove = (id) => {
         .where({ id })
         .del()
 }
+
+module.exports = {
+    get,
+    getBy,
+    getById,
+    add,
+    update,
+    remove
+}
